@@ -24,6 +24,7 @@ ReactDOM.render(
       </ul>
 
       <hr />
+      <hr />
 
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={AboutUs} />
