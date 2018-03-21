@@ -15,6 +15,8 @@ module.exports = {
       Main: path.resolve('app/components/Main.js'),
       React: path.resolve('public/lib/react.development.js'),
       ReactDOM: path.resolve('public/lib/react-dom.development.js'),
+      Header: path.resolve('app/components/Header.js'),
+      Footer: path.resolve('app/components/Footer.js'),
     }
   },
   module:{
