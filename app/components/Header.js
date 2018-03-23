@@ -7,19 +7,22 @@ var Contact = require('Contact');
 import React from 'React';
 import { BrowserRouter as Router, Route, Link, HashRouter } from 'react-router-dom';
 
+var pStyle = {
+  width: '50%',
+  display: 'inline-block'
+};
+
 class Header extends React.Component{
   render(){
     return(
       <header>
         <div className="top-header">
-          <div className="row">
-            <div className="col-md-6 text-center">
+            <div className="text-center" style={pStyle}>
                 <span>Address: 146 Trieu Nu Vuong</span>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="text-center" style={pStyle}>
                 <span>Phone: 084 236 3689696</span>
             </div>
-          </div>
         </div>
         <div className="nav-container">
           <div className="nav">

@@ -13,19 +13,13 @@ import { BrowserRouter as Router, Route, Link, HashRouter } from 'react-router-d
 ReactDOM.render(
   <div>
     <Header />
-    <section className='app-content'>
-      <div className='row'>
-        <div className='col-md-12'>
-          <HashRouter>
-            <div>
-              <Route exact path="/" component={HomePage} />
-              <Route path="/about" component={AboutUs} />
-              <Route path="/contact" component={Contact} />
-            </div>
-          </HashRouter>
-        </div>
+    <HashRouter>
+      <div>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/about" component={AboutUs} />
+        <Route path="/contact" component={Contact} />
       </div>
-    </section>
+    </HashRouter>
     <Footer />
   </div>
   ,

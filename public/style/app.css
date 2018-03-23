@@ -1,6 +1,5 @@
 body {
 	font-family: "Roboto Mono", Monaco, Consolas, "Courier New", monospace;
-	margin-right: 15px;
 }
 .nav-container{ background-color: white; }
 	.f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;} /* this make our menu fixed top */
@@ -74,14 +73,21 @@ body {
 	}
 
 	.slide-section-main {
-		width: 68%;
+		width: 68% !important;
+		display: inline-block !important;
 		/* padding-right: 32px; */
 	}
 
 	.slide-section-aside {
-		width: 32%;
+		width: 32% !important;
+		display: inline-block !important;
+		margin-left: 15px;
 	}
 
+	/* .owl-item {
+		width: 100% !important;
+		height: auto;
+	} */
 	/* .my-carousel{
 		padding-right: 15px;
 	} */

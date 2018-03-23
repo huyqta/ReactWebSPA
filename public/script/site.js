@@ -13,6 +13,8 @@ jQuery("document").ready(function($){
 	$(".owl-carousel").owlCarousel({
 		items:1,
 		loop: true,
+		stagePadding: 0,
+		margin:0,
 		animateIn: 'fadeIn',
 		animateOut: 'fadeOut',
 		touchDrag: false,
