@@ -81,9 +81,38 @@ body {
 	.slide-section-aside {
 		width: 32% !important;
 		display: inline-block !important;
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 
+	.slick-slide img{
+		height: 700.51px;
+	}
+
+	.my-block-banner img{
+		padding-bottom: 20px;
+	}
+
+	.slick-dots {
+		bottom: 20px !important;
+	}
+
+	.slick-dots button{
+		bottom: 20px !important;
+	}
+
+	.slick-dots button::before{
+		font-size: 26px !important;
+		color: #fff !important;
+	}
+
+	.slick-dots li.slick-active button:before{
+		font-size: 26px !important;
+		color: #fff !important;
+		border: 1.5px orange solid !important;
+		border-radius: 15px;
+		opacity: 1 !important;
+	}
+	
 	/* .owl-item {
 		width: 100% !important;
 		height: auto;

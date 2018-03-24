@@ -6,7 +6,7 @@ class HomePage extends React.Component{
       <div>
         <div className="slide-section-layout">
           <div className="slide-section-main">
-            <div className="owl-carousel my-carousel">
+            <div className="my-slick">
               <div>
                 <img src="images/slides/slider-slide-3-1464x660.jpg" alt="Los Angeles" />
               </div>
@@ -32,7 +32,9 @@ class HomePage extends React.Component{
             </div>
           </div>
         </div>
-      </div>
+        <br />
+        <br />
+      </div>      
     )
   }
 }
