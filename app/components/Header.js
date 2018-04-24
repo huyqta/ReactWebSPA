@@ -3,6 +3,7 @@ var ReactDOM = require('react-dom');
 var HomePage = require('HomePage');
 var AboutUs = require('AboutUs');
 var Contact = require('Contact');
+var ProductInCategory = require('ProductInCategory');
 
 import React from 'React';
 import { BrowserRouter as Router, Route, Link, HashRouter } from 'react-router-dom';
@@ -111,63 +112,6 @@ class Header extends React.Component{
                                                 </form>
                                             </div>
                                         </div>
-                                        {/* <div className="shoping-cart">
-                                            <a href="cart.html"><span>My Cart (3)</span></a>
-                                            <div className="add-to-cart-product">
-                                                <div className="cart-product product-item11">
-                                                    <div className="cart-product-image">
-                                                        <a href="single-product.html"><img src="img/cart/faded-short-sleeves-tshirt.jpg" alt="Product" /></a>
-                                                    </div>
-                                                    <div className="cart-product-info">
-                                                        <p><span>1</span>x<a href="single-product.html">Faded...</a></p>
-                                                        <a href="single-product.html">S, Orange</a>
-                                                        <span className="price">£ 19.81</span>
-                                                    </div>
-                                                    <div className="cart-product-remove">
-                                                        <i className="fa fa-times"></i>
-                                                    </div>
-                                                </div>
-                                                <div className="cart-product">
-                                                    <div className="cart-product-image">
-                                                        <a href="single-product.html"><img src="img/cart/printed-dress.jpg" alt="Product" /></a>
-                                                    </div>
-                                                    <div className="cart-product-info">
-                                                        <p><span>1</span>x<a href="single-product.html">blouse</a></p>
-                                                        <a href="single-product.html">S, Black</a>
-                                                        <span className="price">£ 32.40</span>
-                                                    </div>
-                                                    <div className="cart-product-remove">
-                                                        <i className="fa fa-times"></i>
-                                                    </div>
-                                                </div>
-                                                <div className="cart-product">
-                                                    <div className="cart-product-image">
-                                                        <a href="single-product.html"><img src="img/cart/printed-summer-dress.jpg" alt="Product" /></a>
-                                                    </div>
-                                                    <div className="cart-product-info">
-                                                        <p><span>1</span>x<a href="single-product.html">Printed...</a></p>
-                                                        <a href="single-product.html">S, Yellow</a>
-                                                        <span className="price">£ 36.60</span>
-                                                    </div>
-                                                    <div className="cart-product-remove">
-                                                        <i className="fa fa-times"></i>
-                                                    </div>
-                                                </div>
-                                                <div className="cart-price">
-                                                    <div className="cart-product-line fast-line">
-                                                        <span>Shipping</span>
-                                                        <span className="free-shiping">$10.50</span>
-                                                    </div>
-                                                    <div className="cart-product-line">
-                                                        <span>Total</span>
-                                                        <span className="total">£ 88.81</span>
-                                                    </div>
-                                                </div>
-                                                <div className="cart-checkout">
-                                                    <a href="checkout.html">Check out<i className="fa fa-chevron-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -180,16 +124,10 @@ class Header extends React.Component{
                             <div className="mainmenu">
                                 <nav>
                                     <ul>
-                                        <li><a className="home" href="index.html"><i className="fa fa-home"></i></a>
-                                            {/* <ul>
-                                                <li><a href="index-2.html"><span>Home2</span></a></li>
-                                                <li><a href="index-3.html"><span>Home3</span></a></li>
-                                                <li><a href="index-4.html"><span>Home4</span></a></li>
-                                            </ul> */}
-                                        </li>
-                                        <li><a href="about-us.html">Giới thiệu</a></li>
-                                        <li><a href="shop-grid.html">Cửa hàng</a></li>
-                                        <li><a href="#">Liên hệ</a></li>
+                                        <li><a className="home" href="#/home"><i className="fa fa-home"></i></a></li>
+                                        <li><a href="#/about">Giới thiệu</a></li>
+                                        <li><a href="#/category/1021">Cửa hàng</a></li>
+                                        <li><a href="#/contact">Liên hệ</a></li>
                                         <li><a href="blog.html">Chính sách vận chuyển</a></li>
                                         <li><a href="">Danh mục sản phẩm</a>
                                             <ul>{listCategoryLI}</ul>

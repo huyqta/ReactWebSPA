@@ -17,6 +17,12 @@ module.exports = {
       ReactDOM: path.resolve('public/lib/react-dom.development.js'),
       Header: path.resolve('app/components/Header.js'),
       Footer: path.resolve('app/components/Footer.js'),
+      CategoryMenu: path.resolve('app/components/CategoryMenu.js'),
+      ProductHomePage: path.resolve('app/components/ProductHomePage.js'),
+      ProductHomePageBig: path.resolve('app/components/ProductHomePageBig.js'),
+      ProductInCategory: path.resolve('app/components/ProductInCategory.js'),
+      Category: path.resolve('app/components/Category.js'),
+      SlideBanner: path.resolve('app/components/SlideBanner.js'),
     }
   },
   module:{

@@ -119,7 +119,7 @@ body.home-1{}
   color: #666;
   display: block;
   float: left;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 13px;
   font-weight: 400;
   height: 34px;
@@ -179,7 +179,7 @@ body.home-1{}
   color: #666;
   cursor: pointer;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 13px;
   line-height: 34px;
   margin-bottom: -2px;
@@ -222,7 +222,7 @@ body.home-1{}
 }
 .top-menu ul li ul li a{
   color: #8c8c8c;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 13px;
   line-height: 34px;
   text-decoration: none;
@@ -250,7 +250,7 @@ body.home-1{}
   border-right: 1px solid #e5e5e5;
   display: block;
   float: left;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding: 0 20px 0 15px;
@@ -288,7 +288,7 @@ body.home-1{}
   border: medium none;
   border-radius: 0;
   color: #464646;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 13px;
   height: 45px;
   margin-top: 1px;
@@ -336,7 +336,7 @@ body.home-1{}
   border-style: none none solid;
   box-shadow: 0 0 0 3px rgba(228, 228, 228, 1);
   color: #fff;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 36px;
@@ -362,7 +362,7 @@ body.home-1{}
   box-shadow: 0 0 0 3px rgba(228, 228, 228, 1);
   color: #fff;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 36px;
@@ -519,7 +519,7 @@ body.home-1{}
   background: #363636 none repeat scroll 0 0;
   border: 1px solid #363636;
   color: #fff;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 12px;
   display: block;
   font-weight: 700;
@@ -570,8 +570,8 @@ body.home-1{}
 .mainmenu ul li a{
   color: #505050;
   display: block;
-  font-family: "Khula",sans-serif;
-  font-size: 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 14px;
   font-weight: 600;
   line-height: 60px;
   padding: 5px 30px 0;
@@ -611,7 +611,7 @@ body.home-1{}
 .mainmenu ul li ul li a{
   background: #ffa200 none repeat scroll 0 0 !important;
   color: #fff !important;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 35px;
   padding: 6px 15px 0;
   transition: all 0.5s ease 0s;
@@ -631,7 +631,7 @@ body.home-1{}
 }
 .pos_description .title1 .txt{
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 55px;
   font-weight: 300;
   line-height: 30px;
@@ -648,7 +648,7 @@ body.home-1{}
 }
 .pos_description .title2 .txt{
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   color: #fff;
   font-size: 67px;
   font-weight: 800;
@@ -668,7 +668,7 @@ body.home-1{}
 }
 .pos_description .title3 .txt{
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   color: #000;
   font-size: 67px;
   font-weight: 700;
@@ -689,7 +689,7 @@ body.home-1{}
   color: #fff;
   border-bottom: 2px solid #e68700;
   padding: 16px 25px 3px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 55px;
@@ -806,8 +806,8 @@ body.home-1{}
   border-bottom: 2px solid #dc8c00;
   color: #fff;
   cursor: pointer;
-  font-size: 22px;
-  font-family: "Khula",sans-serif;
+  font-size: 18px;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   line-height: 36px;
   margin: 0;
@@ -927,7 +927,7 @@ body.home-1{}
   color: #666;
   display: block;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 50px;
   overflow: hidden;
@@ -1011,7 +1011,7 @@ body.home-1{}
   color: #505050;
   display: block;
   font-size: 24px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   line-height: 27px;
   margin: 0;
@@ -1080,7 +1080,7 @@ body.home-1{}
   border: 0 none;
   color: #fff;
   font-size: 10px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 13px;
   left: 0;
@@ -1093,7 +1093,7 @@ body.home-1{}
   color: #777;
   display: block;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 16px;
   height: 32px;
@@ -1121,7 +1121,7 @@ body.home-1{}
 .area-title h3{
   color: #505050;
   font-size: 24px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   line-height: 36px;
   margin: 0;
@@ -1153,7 +1153,7 @@ body.home-1{}
 .progrtee-box h4{
   color: #ffa200;
   font-size: 24px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 30px;
   margin: 0;
@@ -1162,7 +1162,7 @@ body.home-1{}
 .progrtee-box p{
   color: #444;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0;
@@ -1277,7 +1277,7 @@ body.home-1{}
   color: #fff;
   border: 0 none;
   font-size: 13px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   left: 0;
@@ -1295,7 +1295,7 @@ body.home-1{}
   color: #777;
   display: block;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 19px;
   margin-top: 3px;
@@ -1342,7 +1342,7 @@ body.home-1{}
   color: #3f3f3f;
   display: block;
   font-size: 22px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 25px;
   padding-bottom: 11px;
@@ -1387,7 +1387,7 @@ body.home-1{}
   color: #3f3f3f;
   display: block;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 32px;
   margin: 0 auto;
@@ -1462,7 +1462,7 @@ body.home-1{}
   color: #666;
   display: inline-block;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 20px;
   overflow: hidden;
@@ -1570,7 +1570,7 @@ body.home-1{}
   color: #fff;
   cursor: pointer;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0;
@@ -1644,7 +1644,7 @@ body.home-1{}
   color: #909090;
   display: block;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 20px;
   margin-top: 27px;
@@ -1655,7 +1655,7 @@ body.home-1{}
   color: #4e4e4e;
   display: block;
   font-size: 20px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 25px;
   margin: 5px 0 15px;
@@ -1684,7 +1684,7 @@ body.home-1{}
 .blog-info p{
   color: #4e4e4e;
   font-size: 13px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 0;
@@ -1692,9 +1692,9 @@ body.home-1{}
 }
 .blog-info a.readmore{
   color: #383838;
-  font: 600 13px/30px "Khula",sans-serif;
+  font: 600 13px/30px "Roboto",sans-serif;
   font-size: 13px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 30px;
 }
@@ -1765,7 +1765,7 @@ footer{}
   color: #fff;
   display: block;
   font-size: 24px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 27px;
   text-transform: uppercase;
@@ -1775,7 +1775,7 @@ footer{}
   color: #fff;
   display: block;
   font-size: 24px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 27px;
   text-transform: uppercase;
@@ -1785,7 +1785,7 @@ footer{}
   color: #fff;
   display: block;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 17px;
   text-transform: uppercase;
@@ -1806,7 +1806,7 @@ footer{}
   color: #fff;
   cursor: pointer;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0 0 30px;
@@ -1822,7 +1822,7 @@ footer{}
   color: #fff;
   display: inline;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 17px;
   position: relative;
@@ -1880,7 +1880,7 @@ footer{}
   color: #fff;
   cursor: pointer;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0 0 30px;
@@ -1931,7 +1931,7 @@ footer{}
 .hiring .info {
   color: #fff;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 20px;
   overflow: hidden;
@@ -1942,7 +1942,7 @@ footer{}
   color: #fff;
   cursor: pointer;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0 0 30px;
@@ -1952,7 +1952,7 @@ footer{}
 .hiring a {
   color: #fff !important;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
@@ -1967,7 +1967,7 @@ footer{}
   color: #fff;
   cursor: pointer;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 20px;
   margin: 0 0 30px;
@@ -1983,7 +1983,7 @@ footer{}
 .info-box ul li{
   color: #fff;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 19px;
   text-transform: uppercase;
@@ -1993,7 +1993,7 @@ footer{}
   display: block;
   color: #fff;
   font-size: 14px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   line-height: 17px;
   text-transform: uppercase;
@@ -2015,7 +2015,7 @@ footer{}
 .copyright-text p{
   color: #fff;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 20px;
   margin: 0;
@@ -2210,7 +2210,7 @@ body.home-2 .featured-product-area .owl-next:hover {
   background-repeat: no-repeat;
   cursor: pointer;
   font-size: 12px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 15px;
   margin: 0;
@@ -2361,7 +2361,7 @@ body.home-3 .pos_description .title3 .txt {
   animation: 1000ms linear 0s normal none 1 running fadeInLeft;
   color: #fff;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 41px;
@@ -2372,7 +2372,7 @@ body.home-3 .pos_description .title4 .txt {
   animation: 1000ms linear 0s normal none 1 running fadeInLeft;
   color: #fff;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 85px;
   font-weight: 700;
   line-height: 75px;
@@ -2388,7 +2388,7 @@ body.home-3 .pos_description .title4 .txt {
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 52px;
@@ -2552,7 +2552,7 @@ body.home-3 .brand-and-client .featured-product-area .owl-buttons div {
   color: #727272;
   display: inline-block;
   font-size: 70px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 300;
   line-height: 70px;
   margin-bottom: 20px;
@@ -2569,7 +2569,7 @@ body.home-3 .brand-and-client .featured-product-area .owl-buttons div {
 .dilima-template  p {
   color: #6c6c6c;
   font-size: 16px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   line-height: 24px;
   margin: 0;
@@ -2595,7 +2595,7 @@ body.home-3 .brand-and-client .featured-product-area .owl-buttons div {
   display: block;
   float: left;
   font-size: 36px;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
   line-height: 55px;
   margin: 30px 3px 0;
@@ -2690,7 +2690,7 @@ body.home-4 .pos_description .title1 .txt {
   background: transparent none repeat scroll 0 0;
   color: #000;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 66px;
   font-weight: 300;
   line-height: 67px;
@@ -2701,7 +2701,7 @@ body.home-4 .pos_description .title2 .txt {
   background: transparent none repeat scroll 0 0;
   color: #000;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 41px;
@@ -2718,7 +2718,7 @@ body.home-4 .pos_description .pos-slideshow-readmore a {
   border-radius: 5px;
   color: #fff;
   display: inline-block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: 75px;
@@ -3002,7 +3002,7 @@ body.shop .shop-area{
 span.cat-title {
   color: #4b4b4b;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -3113,7 +3113,7 @@ span.cat-title {
   border-bottom: 1px solid #e8e8e8;
   color: #505050;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 27px;
@@ -3129,7 +3129,7 @@ span.cat-title {
   border-radius: 3px;
   display: block;
   float: left;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -3330,7 +3330,7 @@ body.shop .catagori-short .nav-tabs > li.active > a i {
 #list .featured-inner a{
   color: #4b4b4b;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 16px;
   font-weight: 700;
   margin-top: 3px;
@@ -3356,7 +3356,7 @@ body.shop .catagori-short .nav-tabs > li.active > a i {
 }
 #list .featured-inner p.product-text{
   color: #808080;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -3526,7 +3526,7 @@ body.single-product .tab-content {
 }
 .single-product-details h1 {
   color: #444;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 27px;
@@ -3603,7 +3603,7 @@ body.single-product .tab-content {
 }
 .single-product-details h2 span{
   color: #f06262;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 27px;
@@ -3801,7 +3801,7 @@ body.single-product .single-product-info .tab-content {
 #content-product-review ul.review-tab li a{
   color: #6f6f6f;
   display: block;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 49px;
@@ -3862,7 +3862,7 @@ body.single-product .single-product-info .tab-content {
 }
 .product-tab-review h5{
   color: #666;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 17px;
@@ -3876,7 +3876,7 @@ body.single-product .single-product-info .tab-content {
 }
 .product-tab-review span{
   color: #666;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   display: block;
   font-size: 15px;
   font-weight: 600;
@@ -3884,7 +3884,7 @@ body.single-product .single-product-info .tab-content {
 }
 .product-tab-review span.tab-tate-pro{
   color: #666;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
 }
 .single-product-info a.pro-tab-review{
@@ -4563,22 +4563,22 @@ span.iconContact {
   width: 50px;
 }
 .contactDetails p:hover span.iconContact,
-.contactDetails p:hover body.contact .socila-icon a,
-body.contact .contactHead .socila-icon a:hover{
+.contactDetails p:hover body .contact .socila-icon a,
+body .contact .contactHead .socila-icon a:hover{
   border: 1px solid #FE5B5A;
   color: #FE5B5A;
 }
-body.contact .social-area {
+body .contact .social-area {
   margin-bottom: 20px;
 }
-body.contact .socila-icon > li {
+body .contact .socila-icon > li {
   display: inline-block;
   margin-right: 10px;
 }
-body.contact .contactHead .socila-icon a {
+body .contact .contactHead .socila-icon a {
   color: #000;
 }
-body.contact .socila-icon a {
+body .contact .socila-icon a {
   border: 1px solid #ddd;
   color: #f8f8f8;
   display: block;
@@ -5107,7 +5107,7 @@ ul.tags-cloud li a{
   border-radius: 3px;
   display: block;
   float: left;
-  font-family: "Khula",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;

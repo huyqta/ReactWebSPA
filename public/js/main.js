@@ -18,33 +18,33 @@
 /*--------------------------------
  featured item
 ---------------------------------- */
-     $(".featured-item").owlCarousel({
-      navigation : true,
-      pagination : false,
-      slideSpeed : 600,
-      paginationSpeed : 400,
-      items : 5,
-      itemsDesktop : [1199,4],
-      itemsDesktopSmall : [979,3], 
-      itemsTablet: [767,2], 
-      itemsMobile : [480,1],
-      navigationText : ['<i class="icon-left-open"><i class="fa fa-angle-left"></i></i>','<i class="icon-right-open"><i class="fa fa-angle-right"></i></i>'] 
-  });    
+  //    $(".featured-item").owlCarousel({
+  //     navigation : true,
+  //     pagination : false,
+  //     slideSpeed : 600,
+  //     paginationSpeed : 400,
+  //     items : 5,
+  //     itemsDesktop : [1199,4],
+  //     itemsDesktopSmall : [979,3], 
+  //     itemsTablet: [767,2], 
+  //     itemsMobile : [480,1],
+  //     navigationText : ['<i class="icon-left-open"><i class="fa fa-angle-left"></i></i>','<i class="icon-right-open"><i class="fa fa-angle-right"></i></i>'] 
+  // });    
 /*--------------------------------
  camera-camcord
 ---------------------------------- */
-     $(".camera-slide").owlCarousel({
-      navigation : true,
-      pagination : false,
-      slideSpeed : 600,
-      paginationSpeed : 400,
-      items : 2,
-      itemsDesktop : [1199,2],
-      itemsDesktopSmall : [979,1], 
-      itemsTablet: [767,1], 
-      itemsMobile : [480,1],
-      navigationText : ['<i class="icon-left-open"><i class="fa fa-angle-left"></i></i>','<i class="icon-right-open"><i class="fa fa-angle-right"></i></i>'] 
-  }); 
+  //    $(".camera-slide").owlCarousel({
+  //     navigation : true,
+  //     pagination : false,
+  //     slideSpeed : 600,
+  //     paginationSpeed : 400,
+  //     items : 2,
+  //     itemsDesktop : [1199,2],
+  //     itemsDesktopSmall : [979,1], 
+  //     itemsTablet: [767,1], 
+  //     itemsMobile : [480,1],
+  //     navigationText : ['<i class="icon-left-open"><i class="fa fa-angle-left"></i></i>','<i class="icon-right-open"><i class="fa fa-angle-right"></i></i>'] 
+  // }); 
 /*--------------------------------
  popular tab product
 ---------------------------------- */
