@@ -9,12 +9,10 @@ class ProductHomePage extends React.Component{
     }
 
     componentDidMount() {
-        console.log('Start!');
         fetch('http://localhost:3000/category/getProductByCategory/' + this.props.category)
         .then(results => {
                 return results.json();
             }).then(data => {
-                console.log("Data: " + data);
                 let muBHLD =  data.map((cat) => {
                     var image = cat.ImageUrl === null ? 'img/sorry-image-not-available.png' : cat.ImageUrl;
                     return (

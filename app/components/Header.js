@@ -4,6 +4,8 @@ var HomePage = require('HomePage');
 var AboutUs = require('AboutUs');
 var Contact = require('Contact');
 var ProductInCategory = require('ProductInCategory');
+var {Provider} = require('react-redux');
+var store = require('../store.js');
 
 import React from 'React';
 import { BrowserRouter as Router, Route, Link, HashRouter } from 'react-router-dom';
@@ -14,22 +16,31 @@ var pStyle = {
 };
 
 class Header extends React.Component{
+    constructor(){
+        super();
+        this.state = {
+            categories:[],
+        };
+    }
+
+    componentDidMount() {
+        fetch('http://localhost:3000/category/getAllCategory')
+        .then(results => {
+                return results.json();
+            }).then(data => {
+                debugger;
+                console.log(store);
+                this.setState({categories: data});
+                return
+            })
+    }
   render(){
-    const categories = [
-        "Bao",
-        "Bạt",
-        "Nylon",
-        "Dây",
-        "Vải địa kỹ thuật",
-        "Lưới",
-        "Giày bảo hộ",
-        "Găng tay bảo hộ",
-        "Mũ bảo hộ"
-    ];
-    const listCategory = categories.map((cat) => <option value={cat}>{cat}</option>);
-    const listCategoryLI = categories.map((cat) => <li><a href="#"><span>{cat}</span></a></li>);
+    const categories = this.state.categories;
+    const listCategory = categories.map((cat) => <option value={cat.Id}>{cat.Name}</option>);
+    const listCategoryLI = categories.map((cat) => <li><a href={"#/category/" + cat.Id}><span>{cat.Name}</span></a></li>);
     return(
-      <header>
+        <Provider store={store}>
+            <header>
                 <div className="top-bar-area">
                     <div className="container">
                         <div className="row">
@@ -188,6 +199,7 @@ class Header extends React.Component{
                     </div>
                 </div>
             </header>
+            </Provider>
     )
   }
 }

@@ -8,6 +8,7 @@ class HomePage extends React.Component{
   render(){
     return(
       <div>
+            <span>Sliders</span>
             <SlideBanner />
             <CategoryMenu />
             <div className="featured-product-area-section featured-product-area">

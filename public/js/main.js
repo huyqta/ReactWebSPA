@@ -153,22 +153,22 @@ $(".popular-tab-product").owlCarousel({
 /*--------------------------------
  nivoSlider
 ---------------------------------- */     
-  $('#slider').nivoSlider({
-        effect: 'random',
-        slices: 15,
-        boxCols: 8,
-        boxRows: 4,
-        animSpeed: '600',
-        pauseTime: '6000000',
-        startSlide: 0,
-        directionNav: 1,
-        controlNav: 1,
-        controlNavThumbs: false,
-        pauseOnHover: false,
-        manualAdvance: false,
-        prevText: '<i class="fa fa-angle-left nivo-prev-icon"></i>',
-        nextText: '<i class="fa fa-angle-right nivo-next-icon"></i>'
-    });
+  // $('#slider').nivoSlider({
+  //       effect: 'random',
+  //       slices: 15,
+  //       boxCols: 8,
+  //       boxRows: 4,
+  //       animSpeed: '600',
+  //       pauseTime: '6000000',
+  //       startSlide: 0,
+  //       directionNav: 1,
+  //       controlNav: 1,
+  //       controlNavThumbs: false,
+  //       pauseOnHover: false,
+  //       manualAdvance: false,
+  //       prevText: '<i class="fa fa-angle-left nivo-prev-icon"></i>',
+  //       nextText: '<i class="fa fa-angle-right nivo-next-icon"></i>'
+  //   });
 /*--------------------------------
  tabs
 ---------------------------------- */  

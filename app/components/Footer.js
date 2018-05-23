@@ -13,7 +13,6 @@ class Footer extends React.Component{
         .then(results => {
                 return results.json();
             }).then(data => {
-                console.log("Data: " + data);
                 let category =  data.map((cat) => {
                     return ( 
                     <li><a href="#"><i className="fa fa-star"></i> {cat.Name}</a></li>

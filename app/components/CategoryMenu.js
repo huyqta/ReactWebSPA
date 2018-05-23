@@ -15,7 +15,6 @@ class CategoryMenu extends React.Component{
         .then(results => {
                 return results.json();
             }).then(data => {
-                console.log("Data: " + data);
                 let category =  data.map((cat) => {
                     return ( 
                     <li><a href={"#/category/" + cat.Id} className="single-menu" categoryname={cat.Name}>{cat.Name}</a></li>
